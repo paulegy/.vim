@@ -1,1 +1,4 @@
 ln -s ~/.vim/.vimrc ~/.vimrc
+vim -c 'PluginInstall' -c 'qa!'
+#git submodule init
+#git submodule update
