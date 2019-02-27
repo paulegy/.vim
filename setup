@@ -5,7 +5,7 @@ vim -c 'PluginInstall' -c 'qa!'
 git submodule add https://github.com/jnurmine/Zenburn.git bundle/Zenburn
 git submodule add https://github.com/tmhedberg/SimpylFold.git bundle/SimmpylFold 
 git submodule add https://github.com/vim-scripts/indentpython.vim.git bundle/indentpython
-" git submodule
+git submodule add https://github.com/scrooloose/nerdtree.git bundle/nerdtree
 " git submodule
 " git submodule
 " git submodule
