@@ -31,7 +31,7 @@ inoremap jk <ESC>       " 'jk' will exit insert mode
 
 cnoremap e<Space> e<Space><C-d>
 
-set list
+" set list
 set ruler               " show the current line/column number
 set showcmd             " show incomplete commands
 set showmode            " show the current mode
