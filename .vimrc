@@ -30,7 +30,8 @@ filetype plugin indent on    " required
 inoremap jk <ESC>       " 'jk' will exit insert mode
 
 cnoremap e<Space> e<Space><C-d>
-
+cnoremap E Explore
+cnoremap nt NERDTree
 " set list
 set ruler               " show the current line/column number
 set showcmd             " show incomplete commands
