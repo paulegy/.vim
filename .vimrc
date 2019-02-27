@@ -31,7 +31,7 @@ inoremap jk <ESC>       " 'jk' will exit insert mode
 
 cnoremap e<Space> e<Space><C-d>
 cnoremap nt NERDTree
-map <C-n> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeToggle<CR> " add toggling NERDTree with Ctrl+n
 
 " set list
 set ruler               " show the current line/column number
