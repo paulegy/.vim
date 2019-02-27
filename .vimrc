@@ -1,5 +1,3 @@
-set nocompatible              " required
-filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -29,8 +27,11 @@ Plugin 'jistr/vim-nerdtree-tabs'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-"inoremap jk <ESC>       " 'jk' will exit insert mode
+inoremap jk <ESC>       " 'jk' will exit insert mode
 
+cnoremap e<Space> e<Space><C-d>
+
+set list
 set ruler               " show the current line/column number
 set showcmd             " show incomplete commands
 set showmode            " show the current mode
@@ -41,6 +42,7 @@ set visualbell        " visual bells piss me off
 "****************************************************************************
 "
 set incsearch           " incremental searching
+set nobackup
 set showmatch
 set ignorecase          " searches in all lower case match any case
 set smartcase           " searches with any upper case match exact case
